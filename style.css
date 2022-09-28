@@ -19,8 +19,8 @@ h4 {
 
 .counter {
   position: fixed;
-  top: 25%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -69,11 +69,11 @@ h4 {
 
 .nums {
   color: #3498db;
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
   overflow: hidden;
-  width: 450px;
-  height: 150px;
+  width: 250px;
+  height: 50px;
 }
 
 .nums span {
@@ -130,7 +130,7 @@ h4 {
   border-radius: 3px;
   border: none;
   color: aliceblue;
-  padding: 5px;
+  padding: 15px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
@@ -154,7 +154,7 @@ h4 {
 }
 
 #replay:hover span{
-  padding-right: 25px;
+  padding-right: 50px;
 }
 
 #replay:hover span:after{
